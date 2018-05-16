@@ -1,6 +1,6 @@
 //modules--> working with movies.js
-
-
+var movies = require('./movies'); //look in the same directory that we are at and look for after/
+movies.avatar();
 
 
 //prototype
