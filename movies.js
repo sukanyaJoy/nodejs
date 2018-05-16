@@ -1,3 +1,18 @@
+//creating object inside the module
+module.exports = function(){
+  return{
+    favMovie:""
+  }
+};
+  
+
+/*sharing module
+//sharing modules memory and performance is better
+module.exports = {
+  favMovie: ""
+};
+/*
+/*
 module.exports = { //node js created export blank object in the background
 //in the key:value pairs form
   printAvatar: function(){
@@ -7,7 +22,7 @@ module.exports = { //node js created export blank object in the background
     console.log("Chappie");
   }
   favMovie: "The Matrix"
-}
+}*/
 /* basic method to export module 
 function printAvatar(){
   console.log("Avatar: PG-13");
