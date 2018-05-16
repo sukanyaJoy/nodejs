@@ -1,3 +1,8 @@
+//modules using with the new export module
+var movies = require('./movies');
+movies.printAvatar();
+console.log(movies.favMovie);
+
 //modules--> working with movies.js
 var movies = require('./movies'); //look in the same directory that we are at and look for after/
 movies.avatar();
