@@ -1,3 +1,8 @@
+//
+//in node.js when you share module the default behavior are also shared
+require('./emi');
+require('./aiko');
+
 //modules using with the new export module
 var movies = require('./movies');
 movies.printAvatar();
