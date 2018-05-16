@@ -1,7 +1,7 @@
 # nodejs
 Node.js server side 
 Web app→ real time data, social network→ fast and efficient 
-function
+function\n
 #12 core modules
 if there is a core module we don't need to add path in 
 var fs = require('fs');
