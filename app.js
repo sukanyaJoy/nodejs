@@ -1,3 +1,43 @@
+
+
+//#12 core modules
+//
+console.log(__dirname);
+console.log(__filename);
+/*run
+c:\Users\Emi\Desktop\node.js\Emi\public
+c:\User\Emi\Desktop\node.js\Emi\public\app.js
+*/
+
+//setInterval will run repeatedly every 2 second
+setInterval(function (){
+  console.log("beef");
+},2000);
+/*run
+beef
+beef
+...
+*/
+//using basic module
+var fs = require('fs');
+fs.writeFileSync("corn.txt","Corn is good, corn is life"); //create a new file corn.txt in the same path
+console.log(fs.readFileSync("corn.txt").toString()); //read from corn.txt and write to the console
+//path module
+var path=require('path');
+var websiteHome = "Desktop/Emi//mywebsite/index.html";
+var websiteAbout = "Desktop/Emi/mywebsite/about.html";
+
+console.log(path.normalize(websiteHome));
+console.log(path.dirname(websiteAbout));
+console.log(path.basename(websiteAbout));
+console.log(path.extname(webstieAbout));
+/*run
+Desktop\Emi\mywebsite\index.html
+Desktop/Emi/mywebsite
+about.html
+.html
+*/
+
 //11 object factory
 //in node.js when you share module the default behavior are also shared
 require('./emi');
