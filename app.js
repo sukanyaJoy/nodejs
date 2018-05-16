@@ -1,4 +1,4 @@
-//
+//11 object factory
 //in node.js when you share module the default behavior are also shared
 require('./emi');
 require('./aiko');
