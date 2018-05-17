@@ -8,6 +8,12 @@
   <% include templates/header.ejs%>
   <p><%= name %></p>
   <p><%= points %></p> //this variable is declared in app.js under app.locals.point
+  <h3><%= videodata.categoryNme %></h3>
+  <ul>
+    <% videodata.categories.forEach(function(item); %>
+        <li><%= item.categoryName %></li>
+    <% }); %>
+  </ul>
   <ul>
     <% for(var i=0; i<5; i++){ %>
         <li>Tuna</li>
