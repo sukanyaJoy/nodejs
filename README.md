@@ -11,3 +11,5 @@ showing the demo of how to use the core module and function writeFileSync
 node.js code will be on the server when the client requests for the database this file is responsible for looking at the request and send back the information
 or some file
 #creating a basic server
+#13 send back file css html javascript
+create a simple new html file
