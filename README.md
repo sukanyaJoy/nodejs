@@ -18,3 +18,4 @@ create a simple new html file
 #15 connect
 in the terminal in IntelliJ
 >npm install connect --> go on the internet and fine a package
+in the directory, node_modules has created and connect file
