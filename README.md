@@ -46,4 +46,8 @@ after adding more pages, about.ejs, about.js, header.js
 we need to add in app.js
 #var about = require('./routes/about');
 #app.use('/about',about);
-
+#21 Working with JSON data
+create JSON file
+add local variable in app.js
+#app.locals.points = "8713"; //pretty global for your project to see in the entire program
+and type <p><%= points %></p> in index.ejs
