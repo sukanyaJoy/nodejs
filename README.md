@@ -13,3 +13,8 @@ or some file
 #creating a basic server
 #13 send back file css html javascript
 create a simple new html file
+
+
+#15 connect
+in the terminal in IntelliJ
+>npm install connect --> go on the internet and fine a package
