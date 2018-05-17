@@ -17,7 +17,7 @@ create a simple new html file
 
 #15 connect
 in the terminal in IntelliJ
->npm install connect --> go on the internet and fine a package
+npm install connect --> go on the internet and fine a package
 in the directory, node_modules has created and connect file
 <
 #16 Express --> node.js web's framework
@@ -37,3 +37,10 @@ syntax variable name <%= title %> with equal sign using for variable in express
 <% %> --> plain javascript no equal sign=
 user-> reqiest = index.js ==> homepage --> index as view in index.ejs  passing additional variable 
 title == express
+
+adding new folder "template" in view
+about.ejs, header.ejs
+and under the route add about.js --> adding link <a href="/">Home</a>
+
+
+
