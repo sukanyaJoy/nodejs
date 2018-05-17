@@ -1,3 +1,12 @@
-<a href="/">Home</a> |
-<a href="/about">About</a> |
-<a href="#>Link 3 </a>
+var express = require('express');
+var router = express.Router();
+
+/*GET about page. */
+router.get('/',function (req,res,next){
+  res.render('about',{
+    title: 'Express',
+    name: 'Emi'
+  });
+});
+
+module.exports = router;
