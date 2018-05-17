@@ -19,3 +19,21 @@ create a simple new html file
 in the terminal in IntelliJ
 >npm install connect --> go on the internet and fine a package
 in the directory, node_modules has created and connect file
+<
+#16 Express --> node.js web's framework
+a lot of functionality that we can use, structures of project files, folders 
+in IntelliJ under Node.js and NPM --> Node.js Express App
+//give the project name, 
+// select tempate enineer --> EJS
+in bin folder and click www--> modules dependencies
+--> create server, files, the core behind project
+download additional modules
+public that user can stores, images, javascripts, stylesheets
+route brains for each pages
+right click and run-->localhost:3000 --> Express text 
+#17 stack track errors handlers
+#18 .ejs = embedded javascript --> html+javascript
+syntax variable name <%= title %> with equal sign using for variable in express
+<% %> --> plain javascript no equal sign=
+user-> reqiest = index.js ==> homepage --> index as view in index.ejs  passing additional variable 
+title == express
