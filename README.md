@@ -51,3 +51,5 @@ create JSON file
 add local variable in app.js
 #app.locals.points = "8713"; //pretty global for your project to see in the entire program
 and type <p><%= points %></p> in index.ejs
+  add json file in app.js
+  app.locals.videodata =require('./videodata.json'); //now we can user anywhere in the project, javascript object= json
