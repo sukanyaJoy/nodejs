@@ -53,3 +53,7 @@ add local variable in app.js
 and type <p><%= points %></p> in index.ejs
   add json file in app.js
   app.locals.videodata =require('./videodata.json'); //now we can user anywhere in the project, javascript object= json
+#21 passing json data using routes
+  if we want to use json file for specific page we can add it directly onto the page, or put in app.js for global use 
+  for example
+  if we want to add in index.js we need to add variable 
