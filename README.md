@@ -38,9 +38,12 @@ syntax variable name <%= title %> with equal sign using for variable in express
 user-> reqiest = index.js ==> homepage --> index as view in index.ejs  passing additional variable 
 title == express
 
+#20
 adding new folder "template" in view
 about.ejs, header.ejs
 and under the route add about.js --> adding link <a href="/">Home</a>
-
-
+after adding more pages, about.ejs, about.js, header.js
+we need to add in app.js
+#var about = require('./routes/about');
+#app.use('/about',about);
 
